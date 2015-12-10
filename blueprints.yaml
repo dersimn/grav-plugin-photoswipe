@@ -1,0 +1,36 @@
+name: Photoswipe
+version: 0.1
+description: "Photoswipe is a simple [Grav](http://github.com/getgrav/grav) plugin that adds **lightbox** functionality via Dmitry Semenov's [PhotoSwipe](http://photoswipe.com)."
+author:
+  name: Simon Christmann
+  email: simon@christmann.email
+  url: http://simon-christmann.de
+homepage: https://github.com/dersimn/grav-plugin-photoswipe
+keywords: photoswipe, plugin, code, lightbox
+license: MIT
+
+form:
+  validation: strict
+  fields:
+    enabled:
+      type: toggle
+      label: Plugin Status
+      hightlight: 1
+      default: 0
+      options:
+        1: Enabled
+        0: Disabled
+      validate:
+        type: bool
+
+    active:
+      type: toggle
+      label: Active
+      hightlight: 1
+      default: 0
+      options:
+        1: Enabled
+        0: Disabled
+      validate:
+        type: bool
+      help: Activate on all pages. You can override this setting on a page basis
