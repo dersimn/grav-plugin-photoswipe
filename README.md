@@ -12,6 +12,7 @@ This is a quick and dirty implementation of Dmitry Semenov's [PhotoSwipe](http:/
 
 	cd photoswipe
 	git submodule init
+	git submodule update
 
 4) Activate the plugin by copying `photoswipe.yaml` containing the default settings to your config folder
 
