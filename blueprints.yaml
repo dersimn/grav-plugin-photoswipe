@@ -1,5 +1,5 @@
 name: Photoswipe
-version: 0.1
+version: 0.1.1
 description: "Photoswipe is a simple [Grav](http://github.com/getgrav/grav) plugin that adds **lightbox** functionality via Dmitry Semenov's [PhotoSwipe](http://photoswipe.com)."
 author:
   name: Simon Christmann
@@ -22,6 +22,7 @@ form:
         0: Disabled
       validate:
         type: bool
+      help: Globally enable/disable the plugin. This setting can NOT be overridden by the page header.
 
     active:
       type: toggle
@@ -33,4 +34,4 @@ form:
         0: Disabled
       validate:
         type: bool
-      help: Activate on all pages. You can override this setting on a page basis
+      help: Default setting for all pages. This can be overridden by the page header.
